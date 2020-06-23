@@ -73,16 +73,9 @@
 		
 		}		
 
+		
+		
 		@media (max-width: 800px)
-		{
-		 .container1{
-			flex:50%;
-			max-width:100%;}
-		 .container2{
-			flex:50%;
-			max-width:100%;}
-		}
-		@media (max-width: 600px)
 		{
 		 .container1{
 			flex:100%;
