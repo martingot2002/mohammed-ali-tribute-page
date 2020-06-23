@@ -78,7 +78,7 @@
 		@media (max-width: 800px)
 		{
 		 .container1{
-			flex:100%;
+			flex:50%;
 			max-width:100%;}
 		 
 		 .container2{
