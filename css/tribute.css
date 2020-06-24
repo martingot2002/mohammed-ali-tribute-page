@@ -75,13 +75,3 @@
 
 		
 		
-		@media screen and (max-width: 800px)
-		{
-		 .container1{
-			flex:50%;
-			max-width:50%;}
-		 
-		 .container2{
-			flex:100%;
-			max-width:100%;}
-		}
