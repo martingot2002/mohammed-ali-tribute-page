@@ -12,19 +12,20 @@
 		{	
 		display:flex;
 		flex-direction:column;
-		flex-wrap: nowrap;						
+		flex-wrap: nowrap;					
 		}
 		
 		.container3
 		{
 		display:flex;
 		}	
-	
+		
 		#image
 		{	
 		width:420px;
 		height:300px;
-		border: 10px solid gray;		
+		border: 10px solid gray;
+		margin:0 auto;		
 		}
 
   		#image1
@@ -32,13 +33,15 @@
  		width:420px;
 		height:300px;
 		border: 10px solid gray;
+		margin:0 auto;	
 		}
 		
 		#image2
 		{		
 		width:420px;
 		height:620px;
-		border: 10px solid black;		
+		border: 10px solid black;
+		margin:0 auto;			
 		}
 
 		#image3
@@ -46,12 +49,15 @@
  		width:420px;
 		height:300px;
 		border: 10px solid gray;
+		margin:0 auto;	
 		}
+
 		#image4
 		{	
  		width:420px;
 		height:300px;
-		border: 10px solid gray;		
+		border: 10px solid gray;	
+		margin:0 auto;		
 		}
 		
 		#img-caption
@@ -62,10 +68,9 @@
 
 		Section
 		{
-		text-align:center;
 		margin:auto;
 		width:50%;
-		padding:50px;
+		padding:10px;
 		}
 
 		a
@@ -73,11 +78,39 @@
 		color:red;
 		}
 
+		h2{text-align:center;}
+
 		h3
 		{
 		text-decoration:underline;
 		
-		}		
+		}	
+		
+			
+		
+		@media screen and (max-width:1335px)
+		{
+			
+		.container1
+		 {flex:100%;
+		 }
+		
+		.container2
+		 {flex:33.3%;
+		 }
 
+		.container3
+		 {flex:33.3%;
+		 }
+
+		}
 		
 		
+		@media screen and (max-width:440px)
+		{
+		.container1
+		 {width:440px;}
+		
+		section
+		{width:440px;}
+		}
