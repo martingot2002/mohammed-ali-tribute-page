@@ -1,6 +1,6 @@
 This is a Mohammed Ali Tribute page.
 
-It makes up the first part of my codong portfolio.
+It makes the first project of my coding portfolio.
 
 You can see this project live at the following URL:
 
